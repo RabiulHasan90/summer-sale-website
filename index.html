@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en"  data-theme="light">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Summer Sale</title>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bg-slate-100">
+   
+   <header>
+  <div class="flex justify-between bg-yellow-100 h-[470px]  w-full py-4 px-[200px] max-sm:grid max-sm:grid-cols-1 max-sm:h-auto max-sm:px-[20px] max-sm:pt-[20px] max-lg:flex max-lg:px-[20px] items-center">
+   <div class="flex justify-center items-center w-[50%] flex-col max-sm:w-[100%]">
+     <h4 class="text-sm font-semibold ">---SALE FEVER---</h4>
+     <h1 class="text-3xl font-bold mt-5 max-sm:text-2xl max-sm:mt-2">Purchase TK 200 or <br> above & get <span class="text-pink-600">20% off</span> </h1>
+     <p class="font-semibold mt-5 max-sm:mt-2">Use Promo Code <button class="bg-pink-600 text-white p-1">SELL200</button></p>
+   </div>
+   <div class="w-[50%] max-sm:w-[100%]">
+    <img class="max-sm:w-[250px] max-sm:mx-auto max-lg:w-[370px]" src="images/Summer 1.png" alt="">
+   </div>
+  </div>
+   </header>
+
+   <main>
+     
+      <div class="flex w-[80%] mx-auto max-sm:w-[90%]">
+ 
+         <div class=" w-[70%] max-sm:w-[60%]  ">
+              <h1 class="font-bold text-2xl">Kitchenware</h1>
+             <div class="grid grid-cols-3 gap-3 mt-7 max-sm:grid-cols-2">
+              <div>
+               <div class="card w-auto bg-base-100 shadow-xl  " id="product" onclick="
+                  product1(this)">
+                  <div class="px-5 pt-5 bg-slate-100 ">
+                     <img  src="images/prod1.png" alt="Shoes" class="rounded-xl mx-auto" />
+                  </div>
+                  <div class="card-body items-center text-center">
+                     <div class="flex">
+                     <span class="fa fa-star checked text-yellow-500"></span>
+                     <span class="fa fa-star checked text-yellow-500"></span>
+                     <span class="fa fa-star checked text-yellow-500"></span>
+                     <span class="fa fa-star "></span>
+                     <span class="fa fa-star "></span></div>
+                     <h2 class="card-title" id="nm">K. Accessories</h2>
+                     <p>Price: 39.00 tk</p>
+                     
+                  </div>
+               </div></div>
+               <div class="card w-auto bg-base-100 shadow-xl " onclick="
+                  product1(this)">
+                  <figure class="px-5 pt-5 bg-slate-100 ">
+                     <img src="images/prod2.png" alt="Shoes" class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                     <div class="flex">
+                        <span class="fa fa-star checked "></span>
+                        <span class="fa fa-star checked "></span>
+                        <span class="fa fa-star checked "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                     </div>
+                     <h2 class="card-title">K. Accessories</h2>
+                     <p>Price: 25.00 tk</p>
+                    
+                  </div>
+               </div>
+               <div class="card w-auto bg-base-100 shadow-xl" onclick="
+                   product1(this)">
+                  <figure class="px-5 pt-5 bg-slate-100 ">
+                     <img src="images/prod3.png" alt="Shoes" class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                     <div class="flex">
+                        <span class="fa fa-star checked text-yellow-500"></span>
+                        <span class="fa fa-star checked text-yellow-500"></span>
+                        <span class="fa fa-star checked text-yellow-500"></span>
+                        <span class="fa fa-star  text-yellow-500"></span>
+                        <span class="fa fa-star "></span>
+                     </div>
+                     <h2 class="card-title">Home Cooker</h2>
+                     <p>price: 49.00 tk</p>
+                     
+               </div>
+            </div>
+            </div>
+           
+            <h1 class="font-bold text-2xl mt-5">Sportswear</h1>
+            <div class="grid grid-cols-3 gap-3 mt-7 max-sm:grid-cols-2">
+            
+               <div class="card w-auto bg-base-100 shadow-xl  " onclick="
+                 product1(this)">
+                  <figure class="px-5 pt-5 bg-slate-100 ">
+                     <img src="images/prod4.png" alt="Shoes" class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                     <div class="flex">
+                        <span class="fa fa-star checked text-yellow-500"></span>
+                        <span class="fa fa-star checked text-yellow-500"></span>
+                        <span class="fa fa-star checked text-yellow-500"></span>
+                        <span class="fa fa-star  text-yellow-500"></span>
+                        <span class="fa fa-star "></span>
+                     </div>
+                     <h2 class="card-title">Sports Back Cap</h2>
+                     <p>price: 49.00 tk</p>
+            
+                  </div>
+               </div>
+               <div class="card w-auto bg-base-100 shadow-xl" onclick="
+                   product1(this)">
+                  <figure class="px-5 pt-5 bg-slate-100 ">
+                     <img src="images/prod5.png" alt="Shoes" class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                     <div class="flex">
+                        <span class="fa fa-star checked text-yellow-500"></span>
+                        <span class="fa fa-star checked text-yellow-500"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                     </div>
+                     <h2 class="card-title">Full Jersey Set</h2>
+                     <p>price: 69.00 tk</p>
+            
+                  </div>
+               </div>
+               <div class="card w-auto bg-base-100 shadow-xl" onclick="
+                product1(this)">
+                  <figure class="px-5 pt-5 bg-slate-100 ">
+                     <img src="images/prod6.png" alt="Shoes" class="rounded-xl" />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                     <div class="flex">
+                        <span class="fa fa-star checked text-yellow-500"></span>
+                        <span class="fa fa-star checked text-yellow-500"></span>
+                        <span class="fa fa-star checked text-yellow-500"></span>
+                        <span class="fa fa-star  text-yellow-500"></span>
+                        <span class="fa fa-star "></span>
+                     </div>
+                     <h2 class="card-title">Sports cates</h2>
+                     <p>price: 159.00 tk</p>
+            
+                  </div>
+               </div>
+            </div>
+         
+
+         </div>
+         <div class="w-[30%] text-center mt-9 p-3 max-sm:w-[40%]"> 
+            <div class="bg-white">
+               <h1 class="text-1xl font-bold text-left">Have coupon?</h1>
+               <input class="p-2 max-lg:w-9/12 max-sm:w-9/12" type="text" placeholder="Coupon Code" name="" id="in"><button 
+                class="btn bg-pink-600 text-white mb-2"  id="btn" disabled>Apply</button>
+            </div>
+            <div id="display" class="text-center"> </div>
+            <div>
+               <p class="font-bold">Total Price: <span id="totalPrice">00</span>TK </p>
+               <p class="font-bold">Discount Price: <span id="disPrice">00</span>TK </p>
+               <p class="font-bold">Total: <span id="totalT">00</span>TK </p>
+            </div>
+            <label for="my_modal_6" class="bg-pink-600 btn text-white"  id="pur" disabled>make purchase</label>
+           
+            <input type="checkbox" id="my_modal_6" class="modal-toggle" />
+            <div class="modal">
+               <div class="modal-box">
+                  <div class="">
+                     <img class="mx-auto" src="images/congo.png" alt="">
+                  </div>
+                  <h3 class="font-bold text-3xl">Congratulation</h3>
+                  <p class="py-4">Your Purchase the product</p>
+                  <div class="modal-action">
+                     <label for="my_modal_6" class="btn mx-auto bg-pink-600 text-white"> <a href="index.html">Go Home</a> </label>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+   <!-- <script src="test.js"></script>    -->
+   <script src="script.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,14 @@
+
+.oltype{
+       padding: 0px 30px;
+   list-style-type: decimal;
+      text-align: center;
+}
+
+li{
+   font-weight: 600;
+   list-style-type: decimal;
+}
+.display{
+   padding: 0px 20px;
+}
